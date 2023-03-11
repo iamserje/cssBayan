@@ -8,7 +8,7 @@ body {
    font-weight: normal;
    line-height: 1;
 }
-h1 {
+h1, h2, p {
    margin: 0;
    padding: 0;
 }
@@ -22,20 +22,20 @@ h1 {
    flex-direction: column;
    align-items: center;
    width: 100%;
-   cursor: pointer;
 }
 
 .bayan__title {
    margin-bottom: 1%;
    margin-top: 2%;
 }
-
+/* from here */
 .bayan__row {
    display: flex;
    flex-direction: column;
    align-items: center;
    width: 100%;
    color: #1e59a5;
+   cursor: pointer;
 }
 
 .row-title {
