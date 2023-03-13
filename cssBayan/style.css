@@ -78,6 +78,10 @@ h1, h2, p {
    visibility: hidden;
    transition: all 0.3s linear;
 }
+.bayan__picture:active img{
+   opacity: 0.7;
+   transition: all 0.1s linear;
+}
 
 .bayan__input:checked ~ .bayan__picture{
    height: 100%;
@@ -89,6 +93,8 @@ h1, h2, p {
    max-width: 100%;
    transition: all 0.3s linear;
 }
+
+
 
 .bayan__picture img {
    /* display: block; */
@@ -193,6 +199,11 @@ h1, h2, p {
 
    .bayan:hover > .bayan__row .row-title .icon {
       opacity: 1;
+      transition: 0.3s;
+   }
+   .bayan__row:hover .row-title .icon {
+      opacity: 1;
+      transform: rotate(90deg);
       transition: 0.3s;
    }
 }
