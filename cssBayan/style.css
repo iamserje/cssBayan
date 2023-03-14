@@ -78,10 +78,14 @@ h1, h2, p {
    visibility: hidden;
    transition: all 0.3s linear;
 }
-.bayan__picture:active img{
+
+.bayan__row:active {
+   opacity: 0.7;
+}
+/* .bayan__picture:active img{
    opacity: 0.7;
    transition: all 0.1s linear;
-}
+} */
 
 .bayan__input:checked ~ .bayan__picture{
    height: 100%;
