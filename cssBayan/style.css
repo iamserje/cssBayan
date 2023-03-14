@@ -94,8 +94,6 @@ h1, h2, p {
    transition: all 0.3s linear;
 }
 
-
-
 .bayan__picture img {
    /* display: block; */
    max-width: 0;
@@ -128,21 +126,6 @@ h1, h2, p {
    }
 }
 @media (min-width:1920px) {
-   .bayan__row:hover > .row-title {
-      color: #000;
-      transition: 0.3s;
-   }
-   .bayan__row:hover > .bayan__picture {
-      height: 100%;
-      opacity: 1;
-      visibility: visible;
-      transition: all 0.3s linear;
-   }
-   .bayan__row:hover > .bayan__picture img{
-      max-width: 100%;
-      transition: all 0.3s linear;
-   }
-
    .bayan__title {
       font-size: 3em;
    }
@@ -150,22 +133,39 @@ h1, h2, p {
       font-size:2em;
    }
 
-   .icon {
+   /* .icon {
       opacity: 0;
       transition: 0.3s;
-   }
-   .bayan__input:checked ~ .row-title .icon {
+   } */
+   /* .bayan__input:checked ~ .row-title .icon {
       opacity: 0;
       transition: 0.3s;
-   }
-
-   .bayan:hover > .bayan__row .row-title .icon {
-      opacity: 1;
-      transition: 0.3s;
-   }
+   } */
 }
 
 @media (min-width:1024px) {
+   .bayan__title {
+      font-size: 3em;
+   }
+   .row-title {
+      font-size:2em;
+   }
+
+   /* .icon {
+      opacity: 0;
+      transition: 0.3s;
+   } */
+   /* .bayan__input:checked ~ .row-title .icon {
+      opacity: 0;
+      transition: 0.3s;
+   } */
+}
+
+@media (hover: hover) {
+   .icon {
+      opacity: 0;
+      transition: 0.3s;
+   }
    .bayan__row:hover > .row-title {
       color: #000;
       transition: 0.3s;
@@ -180,23 +180,6 @@ h1, h2, p {
       max-width: 100%;
       transition: all 0.3s linear;
    }
-
-   .bayan__title {
-      font-size: 3em;
-   }
-   .row-title {
-      font-size:2em;
-   }
-
-   .icon {
-      opacity: 0;
-      transition: 0.3s;
-   }
-   .bayan__input:checked ~ .row-title .icon {
-      opacity: 0;
-      transition: 0.3s;
-   }
-
    .bayan:hover > .bayan__row .row-title .icon {
       opacity: 1;
       transition: 0.3s;
