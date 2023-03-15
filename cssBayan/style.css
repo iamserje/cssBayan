@@ -79,8 +79,12 @@ h1, h2, p {
    transition: all 0.3s linear;
 }
 
-.bayan__row:active {
-   opacity: 0.7;
+.bayan__row:active .row-title {
+   color: #6843f0;
+}
+
+.bayan__row:active .row-title .icon{
+   color: #6843f0;
 }
 /* .bayan__picture:active img{
    opacity: 0.7;
@@ -193,4 +197,14 @@ h1, h2, p {
       transform: rotate(90deg);
       transition: 0.3s;
    }
+
+   .bayan__row:active .row-title {
+      color: #6843f0;
+   }
+
+   .bayan__row:active .row-title .icon{
+      color: #6843f0;
+   }
+
+   .
 }
