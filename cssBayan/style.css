@@ -205,6 +205,9 @@ h1, h2, p {
    .bayan__row:active .row-title .icon{
       color: #6843f0;
    }
-
+   .bayan__picture:active img{
+      opacity: 0.7;
+      transition: all 0.1s linear;
+   }
 
 }
